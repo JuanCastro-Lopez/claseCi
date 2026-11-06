@@ -23,6 +23,6 @@ jobs:
 
       - name: validar codigo html
         run: |
-        echo "Inicio"
-        npx html-validate '**/*.html'
-        echo "fin"
+          echo "Inicio"
+          npx html-validate '**/*.html'
+          echo "fin"
